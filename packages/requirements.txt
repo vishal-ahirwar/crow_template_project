@@ -1,0 +1,5 @@
+[requires]
+crowcpp-crow/1.2.1
+[generators]
+CMakeDeps
+CMakeToolchain

@@ -1,0 +1,10 @@
+#ifndef __crow_template_project__
+    #define __crow_template_project__
+#include <string_view>
+namespace Project {
+    constexpr std::string_view VERSION_STRING = "@crow_template_project_VERSION_MAJOR@.@crow_template_project_VERSION_MINOR@.@crow_template_project_VERSION_PATCH@";
+    constexpr std::string_view COMPANY_NAME = "@COMPANY@";
+    constexpr std::string_view COPYRIGHT_STRING = "@COPYRIGHT@";
+    constexpr std::string_view PROJECT_NAME = "@PROJECT_NAME@";
+}
+#endif
